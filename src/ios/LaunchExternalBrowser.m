@@ -1,4 +1,4 @@
-/********* LaunchMobileStore.m Cordova Plugin Implementation *******/
+/********* LaunchExternalBrowser.m Cordova Plugin Implementation *******/
 
 #import <Cordova/CDV.h>
 
@@ -25,7 +25,8 @@
         //NSURL *url = [NSURL URLWithString:[urlFormated stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
 		
 		NSURL *url = [NSURL string: siteURL];
-		
+		NSURL *url = [NSURL URLWithString:siteURL];
+
         //NSLog(@"URL --> %@", urlFormated);
 		NSLog(@"URL --> %@", siteURL);
         [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success){

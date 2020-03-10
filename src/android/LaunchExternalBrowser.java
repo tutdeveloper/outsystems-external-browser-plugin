@@ -36,7 +36,7 @@ public class LaunchExternalBrowser extends CordovaPlugin {
 					Intent i = new Intent(Intent.ACTION_VIEW);
 					i.setData(Uri.parse(siteURL));
 					cordova.getActivity().startActivity(i);
-				  } catch (MalformedURLException e) {
+				  } catch (Exception e) {
 					Log.e("LaunchIntent", e.toString());
 				  }
 //				}
