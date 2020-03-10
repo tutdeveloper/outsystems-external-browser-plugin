@@ -1,0 +1,27 @@
+{
+  "name": "com.os.app.externalbrowser.launcher",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "com.os.app.externalbrowser.launcher",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutdeveloper/outsystems-external-browser-plugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "tutdeveloper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tutdeveloper/outsystems-external-browser-plugin/issues"
+  },
+  "homepage": "https://github.com/tutdeveloper/outsystems-external-browser-plugin#readme"
+}
