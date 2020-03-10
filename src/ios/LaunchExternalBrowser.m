@@ -24,7 +24,7 @@
         //NSString * urlFormated = [NSString stringWithFormat:@"%@://%@/NativeAppBuilder/App?AppKey=%@", webViewUrl.scheme, webViewUrl.host, applicationKeyName];
         //NSURL *url = [NSURL URLWithString:[urlFormated stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
 		
-		NSURL *url = [NSURL string: siteURL];
+		//NSURL *url = [NSURL string: siteURL];
 		NSURL *url = [NSURL URLWithString:siteURL];
 
         //NSLog(@"URL --> %@", urlFormated);
