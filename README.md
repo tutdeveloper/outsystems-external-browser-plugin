@@ -1,6 +1,7 @@
-# OutSystems App Store Launcher Plugin
+# OutSystems External Browser Launcher Plugin
 
-Cordova plugin to launch an external mobile browser
+Cordova plugin to launch an external mobile browser. 
+Based on code from https://github.com/OutSystemsExperts/outsystems-app-store-launcher-plugin/
 
 
 # Install
