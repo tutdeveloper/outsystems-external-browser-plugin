@@ -1,4 +1,4 @@
-package com.cordova.launchstore;
+package com.cordova.LaunchExternalBrowser;
 
 import android.content.Intent;
 import android.net.Uri;

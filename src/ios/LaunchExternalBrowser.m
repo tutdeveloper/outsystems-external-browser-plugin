@@ -2,14 +2,14 @@
 
 #import <Cordova/CDV.h>
 
-@interface LaunchMobileStore : CDVPlugin {
+@interface LaunchExternalBrowser : CDVPlugin {
   // Member variables go here.
 }
 
 - (void)openExternalBrowser:(CDVInvokedUrlCommand*)command;
 @end
 
-@implementation LaunchMobileStore
+@implementation LaunchExternalBrowser
 
 - (void)openExternalBrowser:(CDVInvokedUrlCommand*)command
 {
