@@ -24,22 +24,13 @@ public class LaunchExternalBrowser extends CordovaPlugin {
 		if (siteURL != null && siteURL.length() > 0) {
 			cordova.getActivity().runOnUiThread(new Runnable() {
 			  @Override public void run() {
-//				String webViewUrl = webView.getUrl();
-
-//				if (webViewUrl != null) {
 				  try {
-					  
-//					URL url = new URL(webViewUrl);
-//					String baseUrl = url.getProtocol() + "://" + url.getHost();
-
-//					String buildAppStoreUrl = baseUrl + "/NativeAppBuilder/App?AppKey=" + applicationKeyName;
 					Intent i = new Intent(Intent.ACTION_VIEW);
 					i.setData(Uri.parse(siteURL));
 					cordova.getActivity().startActivity(i);
 				  } catch (Exception e) {
 					Log.e("LaunchIntent", e.toString());
 				  }
-//				}
 			  }
 			});
 		  } else {
