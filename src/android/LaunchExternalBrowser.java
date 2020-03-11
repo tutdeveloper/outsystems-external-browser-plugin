@@ -1,4 +1,4 @@
-package com.cordova.externalbrowser;
+package com.cordova.externalbrowser.LaunchExternalBrowser;
 
 import android.content.Intent;
 import android.net.Uri;
