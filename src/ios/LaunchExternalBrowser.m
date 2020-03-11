@@ -15,7 +15,7 @@
 {
     CDVPluginResult* pluginResult = nil;
     
-    NSString* siteURL = [command.arguments objectAtIndex:1];
+    NSString* siteURL = [command.arguments objectAtIndex:0];
     
     if(siteURL != nil && [siteURL length] > 0) {
         //Open External Browser
